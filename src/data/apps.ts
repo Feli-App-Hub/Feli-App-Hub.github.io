@@ -1,4 +1,21 @@
 import { AppData } from '../types';
+import {
+  BrainCog,
+  Map,
+  FileCode,
+  CreditCard,
+  Music,
+  Heart,
+} from 'lucide-react';
+
+export const iconMap = {
+  BrainCog,
+  Map,
+  FileCode,
+  CreditCard,
+  Music,
+  Heart,
+};
 
 export const apps: AppData[] = [
   {
@@ -17,40 +34,41 @@ export const apps: AppData[] = [
     url: '#',
     color: 'bg-rose-500',
     comingSoon: true,
-  },{
-    id: 'felichat',
-    title: 'FeliChat',
-    description: 'Conecte-se com amigos e comunidade através da nossa moderna plataforma de mensagens.',
-    icon: 'MessagesSquare',
-    url: '#',
-    color: 'bg-sky-500',
-    comingSoon: true,
-  }/*,
+  },
   {
-    id: 'felitasks',
-    title: 'FeliTasks',
-    description: 'Uma ferramenta de produtividade para organizar suas tarefas e aumentar sua eficiência.',
-    icon: 'ListChecks',
+    id: 'feliconvert',
+    title: 'FeliConvert',
+    description: 'Converta arquivos de diversos formatos com facilidade e rapidez em uma única plataforma.',
+    icon: 'FileCode',
     url: '#',
-    color: 'bg-emerald-500',
+    color: 'bg-orange-500',
     comingSoon: true,
   },
   {
-    id: 'felicreativity',
-    title: 'FeliCreativity',
-    description: 'Aprimore seu processo criativo com ferramentas e inspiração potencializadas por IA.',
-    icon: 'Sparkles',
+    id: 'felipay',
+    title: 'FeliPay',
+    description: 'Banco digital com design inteligente baseado em grafos para facilitar sua organização financeira.',
+    icon: 'CreditCard',
     url: '#',
-    color: 'bg-amber-500',
+    color: 'bg-green-500',
     comingSoon: true,
   },
   {
-    id: 'felidesigner',
-    title: 'FeliDesigner',
-    description: 'Crie designs e arte bonitos com nossas ferramentas intuitivas de design.',
-    icon: 'Palette',
+    id: 'feliscoreai',
+    title: 'FeliScore AI',
+    description: 'Inteligência Artificial que gera e analisa partituras com uma nova notação baseada em matemática.',
+    icon: 'Music',
     url: '#',
-    color: 'bg-purple-500',
+    color: 'bg-yellow-500',
     comingSoon: true,
-  }*/
+  },
+  {
+    id: 'felimatch',
+    title: 'FeliMatch',
+    description: 'Plataforma de correio elegante para criar conexões especiais com privacidade e diversão.',
+    icon: 'Heart',
+    url: '#',
+    color: 'bg-pink-500',
+    comingSoon: true,
+  }
 ];

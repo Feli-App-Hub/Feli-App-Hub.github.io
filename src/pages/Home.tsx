@@ -8,9 +8,7 @@ const Home: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Hero />
-      <div className="container mx-auto px-4 py-8 flex-grow">
-        <AppGrid apps={apps} />
-      </div>
+ 
     </div>
   );
 };

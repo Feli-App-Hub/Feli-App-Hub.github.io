@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <span className="ml-2 text-xl font-bold text-white">
-                FeliApps Hub
+                FeliApps
               </span>
             </Link>
           </div>

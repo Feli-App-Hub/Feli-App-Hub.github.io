@@ -1,6 +1,22 @@
 import React from 'react';
 import { AppData } from '../types';
-import { BrainCog, Map, ListChecks, Sparkles, MessagesSquare, Palette, ExternalLink } from 'lucide-react';
+
+import {
+  BrainCog,
+  Map,
+  ListChecks,
+  Sparkles,
+  MessagesSquare,
+  Palette,
+  ExternalLink,
+  CreditCard,
+  FileCode,
+  Music,
+  Heart
+} from 'lucide-react';
+
+
+
 
 interface AppCardProps {
   app: AppData;
@@ -8,13 +24,18 @@ interface AppCardProps {
 
 const AppCard: React.FC<AppCardProps> = ({ app }) => {
   const iconMap = {
-    BrainCog,
-    Map,
-    ListChecks,
-    Sparkles,
-    MessagesSquare,
-    Palette,
-  };
+  BrainCog,
+  Map,
+  ListChecks,
+  Sparkles,
+  MessagesSquare,
+  Palette,
+  CreditCard,
+  FileCode,
+  Music,
+  Heart,
+};
+
 
   const IconComponent = iconMap[app.icon as keyof typeof iconMap];
 
