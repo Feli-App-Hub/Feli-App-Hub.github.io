@@ -1,9 +1,8 @@
 {
-  "homepage": "https://feli-app-hub.github.io",
-  "name": "vite-react-typescript-starter",
-  "private": true,
+  "name": "feli-app-hub",
   "version": "0.0.0",
-  "type": "module",
+  "private": true,
+  "homepage": "https://feli-app-hub.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
