@@ -34,25 +34,17 @@ export const apps: AppData[] = [
     url: '#',
     color: 'bg-rose-500',
     comingSoon: true,
-  },
-  {
-    id: 'feliconvert',
-    title: 'FeliConvert',
-    description: 'Converta arquivos de diversos formatos com facilidade e rapidez em uma única plataforma.',
-    icon: 'FileCode',
-    url: '#',
-    color: 'bg-orange-500',
-    comingSoon: true,
-  },
-  {
-    id: 'felipay',
-    title: 'FeliPay',
-    description: 'Banco digital com design inteligente baseado em grafos para facilitar sua organização financeira.',
-    icon: 'CreditCard',
-    url: '#',
-    color: 'bg-green-500',
-    comingSoon: true,
-  },
+  },/*
+{
+  id: 'felipay',
+  title: 'FeliPay',
+  description: 'Banco digital com design inteligente baseado em grafos para facilitar sua organização financeira.',
+  icon: 'CreditCard',
+  url: '#',
+  color: 'bg-green-500',
+  comingSoon: true,
+},
+*/
   {
     id: 'feliscoreai',
     title: 'FeliScore AI',
@@ -70,5 +62,23 @@ export const apps: AppData[] = [
     url: '#',
     color: 'bg-pink-500',
     comingSoon: true,
-  }
+  },
+  {
+    id: 'feliconvert',
+    title: 'FeliConvert',
+    description: 'Converta arquivos de diversos formatos com facilidade e rapidez em uma única plataforma.',
+    icon: 'FileCode',
+    url: '#',
+    color: 'bg-orange-500',
+    comingSoon: true,
+  },{
+  id: 'felidreamsync',
+  title: 'FeliDreamSync',
+  description: 'Transforme seus sonhos em conexões reais. Registre experiências oníricas, descubra significados ocultos e conecte-se com quem sonhou parecido.',
+  icon: 'BrainCog',
+  url: '#',
+  color: 'bg-purple-600',
+  comingSoon: true,
+}
+
 ];

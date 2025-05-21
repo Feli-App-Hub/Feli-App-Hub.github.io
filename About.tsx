@@ -8,8 +8,13 @@ const About: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About FeliApps</h2>
           <p className="text-gray-600 mb-8">
-            FeliApps is a collection of thoughtfully designed applications created to bring more joy and productivity to your digital life.
-            Our mission is to create beautiful, intuitive tools that solve real problems and enhance your everyday experiences.
+            <strong>FeliAppsHub</strong> é uma coleção de aplicativos que idealizei e desenvolvi pensando em coisas que considero
+            legais, divertidas e úteis — especialmente para ajudar as pessoas a se conhecerem melhor. Também inclui ferramentas
+            que acredito serem necessárias no dia a dia. Estou feliz com o resultado, porque muitas vezes o perfeccionismo tenta
+            nos sabotar — e, para mim, esse processo também foi uma batalha contra o medo de errar. Depois de ler o livro
+            <em> "Mostre Seu Trabalho"</em>, do Austin Kleon, resolvi investir meu tempo e mergulhar de cabeça nesses projetos.
+            Tenho aprendido (e continuo aprendendo) muito com cada um deles. Espero que eles possam te ajudar ou, ao menos,
+            arrancar um sorriso seu.
           </p>
         </div>
         
